@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //DECLARANDO AS VARIAVEIS
     const questoes=[
-        "Qual linguagem de progra,ação você utiliza",
+        "Qual linguagem de programação você utiliza",
         "Desvreva esssa linguagem",
         "Em que ano surgiu a Linguagem utilizada",
         "Você se considera um programa senior",
