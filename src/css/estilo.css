@@ -228,6 +228,15 @@ header #logo{
     margin-top: 5px;
 }
 
+/*LOCALIZA*/    
+#mapaid{
+    width: 1000px;
+    height: 600px;
+}
+#localizacao{
+    margin-top: 10px;
+    font-weight: 600;
+}
 
 footer{
     margin-top: 30vh;

@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     const listaResultado = document.getElementById('lista-resultado');
     const reiniciarBotao = document.getElementById('inicio-btn')
 
-//DECLARANDO AS VARIAVEIS
+    //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
-        "Qual linguagem de programação você utiliza",
-        "Desvreva esssa linguagem",
+        "Qual linguagem de programação você utiliza ",
+        "Descreva essa linguagem",
         "Em que ano surgiu a Linguagem utilizada",
-        "Você se considera um programa senior",
+        "Você se considera um prograamador senior",
     ]
-
+    //DECLARANDOS AS VARIAVEIS
     let perguntas = 0;
-    const respostas = []
+    const respostas = [];
 
     function mostrarPergunta(){
         if(perguntas <questoes.length){
